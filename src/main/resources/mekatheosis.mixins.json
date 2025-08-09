@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mumu17.mekatheosis.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mekatheosis.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

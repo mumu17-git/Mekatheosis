@@ -1,0 +1,55 @@
+{
+  "type": "apotheosis:gem",
+  "unique": true,
+  "quality": 0.1,
+  "weight": 100,
+  "bonuses": [
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "sword",
+          "trident",
+          "heavy_weapon"
+        ]
+      },
+      "mob_effect": "mekatheosis:radiation",
+      "target": "attack_target",
+      "stack_on_reapply": true,
+      "stacking_limit": 1,
+      "values": {
+        "common": {
+          "duration": 60,
+          "amplifier": 0,
+          "cooldown": 360
+        },
+        "uncommon": {
+          "duration": 80,
+          "amplifier": 0,
+          "cooldown": 320
+        },
+        "rare": {
+          "duration": 100,
+          "amplifier": 0,
+          "cooldown": 280
+        },
+        "epic": {
+          "duration": 120,
+          "amplifier": 0,
+          "cooldown": 240
+        },
+        "mythic": {
+          "duration": 160,
+          "amplifier": 1,
+          "cooldown": 220
+        },
+        "ancient": {
+          "duration": 200,
+          "amplifier": 1,
+          "cooldown": 180
+        }
+      }
+    }
+  ]
+}
