@@ -29,7 +29,7 @@ group = mod_group_id
 version = mod_version
 
 base {
-    archivesName = "Mekatheosis-${minecraft_version}-${mod_version}"
+    archivesName = "Mekatheosis-${minecraft_version}"
 }
 
 java {
